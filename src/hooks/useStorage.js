@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react;
+import { useState, useEffect } from 'react';
 import { projectStorage } from '../firebase/config';
 // our hooks are for handling the uploads
 

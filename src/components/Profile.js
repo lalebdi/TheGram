@@ -10,7 +10,7 @@ const Profile = () => {
             <img src={user.picture} alt={user.name} />
             <h3> {user.name} </h3>
             <p>{user.nickname}</p>
-            <JSONPretty data={ user } />
+            {/* <JSONPretty data={ user } /> */}
         </div>
         )
     )

@@ -13,7 +13,7 @@ function App() {
   const { isloading } = useAuth0();
 
   if(isloading) return <div>Loading...</div>
-  
+
   return (
     <div className="App">
       <LoginButton />

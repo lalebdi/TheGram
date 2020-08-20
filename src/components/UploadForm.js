@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import ProgressBar from './ProgressBar';
+import { useAuth0 } from '@auth0/auth0-react';
 
 const UploadForm = () => {
     const [file, setFile]= useState(null);
     const [error , setError] = useState(null);
     // below I'm selecting what's allowed to be uploaded
     const types = ['image/png' , 'image/jpeg'];
+
+    const { isAuthenticated } = useAuth0();
 
     const changeHandler = (e) => {
         // console.log("changed");
@@ -22,6 +25,7 @@ const UploadForm = () => {
     }
 
     return (
+      isAuthenticated && (
         <form>
         <label>
           <input type="file" onChange={changeHandler} />
@@ -33,6 +37,7 @@ const UploadForm = () => {
           { file && <ProgressBar file={file} setFile={setFile} /> }
         </div>
       </form>
+      )
     )
 }
 

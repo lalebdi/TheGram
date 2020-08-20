@@ -3,9 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { Auth0Provider } from '@auth0/auth0-react';
+require('dotenv').config();
 
 const domain = process.env.REACT_APP_AUTH0_DOMAIN;
 const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;
+
+console.log(process.env.REACT_APP_AUTH0_DOMAIN)
+console.log(domain);
+console.log(clientId);
 
 //  Auth0 uses React context will be able to access properties within the app.
 ReactDOM.render(

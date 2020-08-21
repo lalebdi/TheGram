@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
 
+@font-face {
+  font-family: 'Billabong';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Billabong'), url('./components/font/Billabong.woff') format('woff');
+  }
+
 :root{
-  --primary: #efb6b2;
+  --primary: white;
   --secondary: #4e4e4e;
   --error: #ff4a4a;
 }
@@ -14,10 +21,22 @@ body{
 .App{
   max-width: 960px;
   margin: 0 auto;
+  /* background-image: conic-gradient(#FEDA75, #FA7E1E, #D62976 ,#962FBF ,#4F5BD5); */
+  background: 
+    repeating-radial-gradient(
+      circle at 0 0, 
+      #FEDA75,
+      #FA7E1E,
+      #D62976,
+      #962FBF,
+      #4F5BD5
+    );
+  height: 100%;
 }
 .title h1{
+  font-family: "Billabong";
   color: var(--primary);
-  font-size: 1.2rem;
+  font-size: 3rem;
   letter-spacing: 2px;
   font-weight: normal;
 }

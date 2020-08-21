@@ -134,8 +134,9 @@ label:hover{
 }
 
 .profile-img{
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
 }
 
 .login-page{
@@ -185,6 +186,7 @@ label:hover{
       #962FBF,
       #4F5BD5
     );
+    align-items: center;
 }
 
 .logout-btn{

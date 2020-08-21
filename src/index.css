@@ -137,3 +137,37 @@ label:hover{
   width: 192px;
   height: 192px;
 }
+
+.login-page{
+  font-family: "Billabong";
+  color: white;
+  font-size: 75px;
+  background: 
+    repeating-radial-gradient(
+      circle at 0 0, 
+      #FEDA75,
+      #FA7E1E,
+      #D62976,
+      #962FBF,
+      #4F5BD5
+    );
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+.login-btn{
+  width: 268px;
+  height: 50px;
+  border-radius: 16px;
+  margin: 2rem 0;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  align-items: center;
+}

@@ -17,14 +17,18 @@ function App() {
   return (
     <div className="App">
       <LoginButton />
-      <LogoutButton />
-      <Profile />
+      <div className="main-page" >
+        <div className="upper-bar" >
+        <Profile />
+        <LogoutButton />
+        </div>
       <Title/>
       <UploadForm />
       <ImageGrid setSelectedImg={setSelectedImg} />
       { selectedImg && (
         <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />
       )}
+      </div>
     </div>
   );
 }

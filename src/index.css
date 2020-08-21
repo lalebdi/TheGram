@@ -134,8 +134,8 @@ label:hover{
 }
 
 .profile-img{
-  width: 192px;
-  height: 192px;
+  width: 120px;
+  height: 120px;
 }
 
 .login-page{
@@ -170,4 +170,10 @@ label:hover{
   padding: 1rem 2rem;
   cursor: pointer;
   align-items: center;
+}
+
+.upper-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }

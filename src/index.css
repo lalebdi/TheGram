@@ -8,7 +8,7 @@
   }
 
 :root{
-  --primary: white;
+  --primary: black;
   --secondary: #4e4e4e;
   --error: #ff4a4a;
 }
@@ -22,7 +22,7 @@ body{
   max-width: 960px;
   margin: 0 auto;
   /* background-image: conic-gradient(#FEDA75, #FA7E1E, #D62976 ,#962FBF ,#4F5BD5); */
-  background: 
+  /* background: 
     repeating-radial-gradient(
       circle at 0 0, 
       #FEDA75,
@@ -30,8 +30,8 @@ body{
       #D62976,
       #962FBF,
       #4F5BD5
-    );
-  height: 100%;
+    ); */
+  /* height: 100%; */
 }
 .title h1{
   font-family: "Billabong";
@@ -176,4 +176,30 @@ label:hover{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  background: 
+    repeating-radial-gradient(
+      circle at 0 0, 
+      #FEDA75,
+      #FA7E1E,
+      #D62976,
+      #962FBF,
+      #4F5BD5
+    );
+}
+
+.logout-btn{
+  width: 80px;
+  height: 50px;
+  border-radius: 16px;
+  margin: 2rem 0;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  align-items: center;
+}
+
+.profile-container{
+  float: left;
+  display: flex;
+  flex-direction: row;
+
 }

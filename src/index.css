@@ -176,7 +176,8 @@ label:hover{
 .upper-bar{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 10px;
   background: 
     repeating-radial-gradient(
       circle at 0 0, 

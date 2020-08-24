@@ -157,8 +157,8 @@ label:hover{
   flex-direction: column;
   justify-items: center;
   align-items: center;
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   box-sizing: border-box;
   padding: 2rem;
 }
@@ -177,7 +177,7 @@ label:hover{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 10px;
+  /* padding: 10px; */
   background: 
     repeating-radial-gradient(
       circle at 0 0, 
@@ -198,6 +198,7 @@ label:hover{
   padding: 1rem 2rem;
   cursor: pointer;
   align-items: center;
+  margin: 10px;
 }
 
 .profile-container{

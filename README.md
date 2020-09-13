@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3AInstagram_logo_2016.svg&psig=AOvVaw28fj-Sw86lF3VQm13Re_ix&ust=1600046110379000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJD5wrv65OsCFQAAAAAdAAAAABAE" alt="Logo" width="80" height="80">
+    
   
   
 

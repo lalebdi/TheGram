@@ -36,7 +36,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![theGram](https://user-images.githubusercontent.com/67381036/93007938-d8102100-f53c-11ea-80bd-93cf1270b0c6.gif)
+
 
 This is my version of an instagram clone with Auth0. Post and Share photos.
 

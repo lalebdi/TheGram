@@ -1,9 +1,9 @@
-<!-- PROJECT LOGO -->
 <br />
+<!-- PROJECT LOGO -->
+
+![pic03](https://user-images.githubusercontent.com/67381036/93150021-0b31ec00-f6c6-11ea-8892-217713cb57fd.jpg)
+
 <p align="center">
-    
-  
-  
 
   <h3 align="center">LeahGram</h3>
 
@@ -14,44 +14,38 @@
   </p>
 </p>
 
-
-
 <!-- TABLE OF CONTENTS -->
+
 ## Table of Contents
 
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-
-
+- [About the Project](#about-the-project)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 ![theGram](https://user-images.githubusercontent.com/67381036/93007938-d8102100-f53c-11ea-80bd-93cf1270b0c6.gif)
 
-
 This is my version of an instagram clone with Auth0. Post and Share photos.
-
 
 ### Built With
 
-* React
-* Firebase
-* Auth0
-* Framer motion
-* JSON Pretty
-
-
-
+- React
+- Firebase
+- Auth0
+- Framer motion
+- JSON Pretty
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -60,7 +54,9 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+
+- npm
+
 ```sh
 npm install npm@latest -g
 ```
@@ -69,32 +65,33 @@ npm install npm@latest -g
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
+
 ```sh
 git clone https://github.com/your_username_/Project-Name.git
 ```
+
 3. Install NPM packages
+
 ```sh
 npm install
 ```
+
 4. Enter your API in `config.js`
+
 ```JS
 const API_KEY = 'ENTER YOUR API';
 ```
 
-
-
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-
-
-
-
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -105,32 +102,23 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
-
 <!-- CONTACT -->
+
 ## Contact
 
 Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
-
-
-
-
-
-
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square

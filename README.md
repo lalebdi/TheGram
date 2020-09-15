@@ -75,9 +75,7 @@ npm install
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+Please refer to the [deployed site](https://5f5533fde700eed9a95ea282--adoring-stonebraker-0be6df.netlify.app/)
 
 <!-- CONTRIBUTING -->
 

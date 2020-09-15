@@ -21,8 +21,9 @@
 - [About the Project](#about-the-project)
   - [Built With](#built-with)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
+
   - [Installation](#installation)
+
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -48,18 +49,13 @@ This is my version of an instagram clone with Auth0. Post and Share photos.
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+### `npm start`
 
-### Prerequisites
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-
-```sh
-npm install npm@latest -g
-```
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
 ### Installation
 

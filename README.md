@@ -62,7 +62,7 @@ You will also see any lint errors in the console.
 1. Clone the repo
 
 ```sh
-git clone https://github.com/lalebdi/TheGram
+git clone https://github.com/lalebdi/TheGram.git
 ```
 
 2. Install NPM packages
